@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    cursor: none !important;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+.custom-cursor {
+    width: 20px;
+    height: 20px;
+    background: white;
+    position: absolute;
+    border-radius: 50%;
+    mix-blend-mode: difference;
+    transition: all 100ms linear;
+}
+
+#mian {
+    position: relative;
+    overflow: hidden;
+}
